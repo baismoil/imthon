@@ -1,0 +1,47 @@
+* h1 {
+  color: #363738;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+* p {
+  color: #6B6B6C;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation {
+  height: 500px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  max-width: 1240px;
+}
+
+.nav__content {
+  max-width: 525px;
+}
+.nav__content h1 {
+  font-size: 50px;
+}
+.nav__content p {
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+.navigation__wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
